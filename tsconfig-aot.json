@@ -1,0 +1,30 @@
+﻿{
+	"compilerOptions": {
+		"target": "es5",
+		"lib": [ "dom", "es6" ],
+		"module": "es2015",
+		"moduleResolution": "node",
+		"importHelpers": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"declaration": false,
+		"noEmitOnError": false,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"noImplicitReturns": true,
+		"sourceMap": false,
+		"outDir": "aot"
+	},
+	"exclude": [
+		"src/scripts",
+		"node_modules"
+	],
+	"files": [
+		"test.ts"
+	],
+	"angularCompilerOptions": {
+		"genDir": "aot",
+		"skipMetadataEmit": true
+	}
+}
